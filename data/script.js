@@ -31,3 +31,9 @@ function openDoor() {
     xhttp.open("GET", "openDoor", true);
     xhttp.send();
 }
+
+function sendPhotoTelegram() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", "sendPhotoTelegram", true);
+    xhttp.send();
+}sendPhotoTelegram
